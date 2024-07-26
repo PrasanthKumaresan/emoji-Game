@@ -1,0 +1,34 @@
+.emoji-card-container {
+  background-color: #d0cfff;
+  border: 1px solid #ffffff33;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5px;
+  list-style-type: none;
+  height: 80px;
+  width: 28%;
+}
+@media (min-width: 768px){
+  .emoji-card-container{
+    height: 180px;
+    width: 20%;
+  }
+}
+.emoji-image {
+  height: 50px;
+  width: 50px;
+  align-self: center;
+  cursor: pointer;
+}
+@media (min-width: 768px){
+  .emoji-image{
+    height: 70px;
+    width: 70px;
+  }
+}
+.emoji-button {
+  background-color: transparent;
+  border: none;
+}

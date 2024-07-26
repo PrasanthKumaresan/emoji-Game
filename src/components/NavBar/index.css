@@ -1,0 +1,49 @@
+.NavBar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'roboto';
+  width: 100%;
+}
+.logo-image {
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+  align-self: center;
+}
+@media (min-width: 768px) {
+  .logo-image {
+    height: 25px;
+    width: 25px;
+  }
+}
+.navbar-para {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  align-self: center;
+  margin-right: 25px;
+}
+@media (min-width: 768px) {
+  .navbar-para {
+    font-size: 20px;
+  }
+}
+.nav-img {
+  display: flex;
+}
+.navbar-display-none {
+  display: none;
+}
+.NavBar-container-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-family: 'roboto';
+  width: 100%;
+}
+.nav-para-containerbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

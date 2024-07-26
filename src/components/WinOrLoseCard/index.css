@@ -1,0 +1,88 @@
+.result-container {
+  height: 450px;
+  width: 80%;
+  background-color: #d0cfff;
+  border: 2px solid #fbf9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'roboto';
+  border-radius: 10px;
+}
+@media (min-width: 768px) {
+  .result-container {
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 350px;
+  }
+}
+.results-image {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+  order: 1;
+}
+@media (min-width: 768px) {
+  .results-image {
+    height: 300px;
+    width: 200px;
+    order: 2;
+  }
+}
+.result-para {
+  font-size: 25px;
+  font-weight: bolder;
+  color: white;
+}
+@media (min-width: 768px) {
+  .result-para {
+    font-size: 35px;
+  }
+}
+.score-label {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 0px;
+}
+@media (min-width: 768px){
+  .score-label{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+.score-result {
+  color: #6a59ff;
+  font-size: 30px;
+  margin-top: 0px;
+  font-weight: bolder;
+}
+@media (min-width: 768px){
+  .score-result{
+    font-weight: bolder;
+    font-size: 35px;
+    text-align: center;
+  }
+}
+.retry-button {
+  background-color: #ffce27;
+  height: 35px;
+  width: 100px;
+  border-radius: 10px;
+  border-width: 0px;
+  color: black;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .result-word-container {
+    order: 1;
+    margin-left: 20px;
+    text-align: center;
+  }
+}
+.result-word-container {
+  order: 2;
+}
